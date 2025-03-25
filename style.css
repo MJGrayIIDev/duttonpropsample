@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+body {
+    background-color: #f6f6f6;
+}
+
+
+
+.background-test {
+    background-image: url(./assets/Dark\ Background.png);
+    width: 100%;
+    height: 90%;
+    background-repeat: no-repeat;
+
+}
+
+li, a, button {
+
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 14px;
+    color:white;
+    text-decoration: none;
+    padding: 0px 20px;
+
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    background-color: #91C73E;
+    padding: 5px;
+    color: white;
+    width: 150px;
+    border: 1px white solid;
+}
+
+button:hover {
+    background-color: white;
+    color: #91C73E;
+    border: solid 1px #91C73E;;
+}
+
+.blockoverlay {
+    background-color: rgb(0,0,0,0.7);
+    height: 100%;
+    border-radius: 5px;
+    line-height: 1.5;
+    align-content: center;
+}
+
+
+.blockText {
+
+    color:#ffffff;
+    padding: 10px 15px;
+    
+    
+}
+
+.blockButton {
+    margin-top: 20px;
+}
+
+
+.blockText h2 {
+    font-weight: 300;
+    margin: 10px 0 ;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    /*background-color: #91C73E;*/
+    
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.logo {
+    width: 150px;
+    margin: 0px;
+
+}
+
+a {
+    padding: 0;
+}
+
+.hero-section {
+   /* background-image: url(/assets/Factory\ Backdrop.png);*/
+    background-size: cover;
+    text-align: center;
+    padding: 35px;
+    color: white;
+}
+
+.hero-section h2 {
+
+    margin-top: 10%;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.hero-section h4 {
+
+    margin-top: 5%;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.hero-section button {
+
+    margin: 5%;
+
+}
+
+.about-us {
+
+display: grid;
+grid-template-columns: 1fr 2fr;
+padding: 5% 10%;
+line-height: 1.5;
+}
+
+.aboutus-item1 {
+    padding-right: 45px
+}
+
+.about-us p {
+    font-size: 18px;
+
+}
+
+.about-us h2 {
+    font-weight: 300; 
+}
+
+.residential-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px;
+    gap: 10px;
+    padding: 25px 15px;
+    
+    
+}
+
+.residential_one {
+    background-image: url(./assets/servantsquarterskitchen.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    height: 100%;
+  
+
+}
+
+.residential_two {
+
+    background-image: url(./assets/factorylofts.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.commercial {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    height: 525px;
+    padding: 15px 15px;
+
+}
+
+.commercial-item{
+
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+.commercial h3 {
+    padding: 15px;
+    font-weight: 400;
+}
+
+.commercial img {
+    width: 100%;
+    height:200px;
+    object-fit: fill;
+    border-radius: 5px 5px 0 0;
+    padding: 0;
+
+}
+
+footer {
+    clear: both;
+    background-color: #2F5673;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    color: white;
+    font-weight: 300;
+    margin-top: 15px;
+
+}
+
+.footer-item {
+    text-align: center;
+}
+
+.ourNeighborhood {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 15px 15px;
+    background-color: #ffffff;
+    align-content: center;
+    gap: 15px;
+}
+
+.ourNeighborhood img {
+    width: 150px;
+}
+
+.neighborhoodItem {
+    align-content: center;
+}
